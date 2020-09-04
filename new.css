@@ -1,0 +1,70 @@
+body
+{
+	background-color:#000000;
+	font-family: 'Slabo 27px', serif;
+	color: white;
+}
+h1
+{
+	text-align: center;
+	font-size: 48px;
+	letter-spacing:3px;
+}
+p
+{
+	text-align:center;
+}
+.board
+{
+	width:1200px;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+}
+
+.photo1
+{
+
+	width:350px;
+	display: inline-block;
+	padding:5px;
+	transition: all 0.3s ease-in-out;
+
+}
+.photo1:hover
+{
+	-webkit-transform: scale(0.9);
+	-ms-transform:scale(0.9);
+	transform:(0.9);
+}
+.photo2
+{
+
+	width:350px;
+	display: inline-block;
+	padding:5px;
+	transition:all 0.3s ease-in-out;
+
+}
+.photo2:hover
+{
+	-webkit-transform:scale(0.9);
+	-ms-transform:scale(0.9);
+	transform: scale(0.9);
+	
+}
+.photo3
+{
+
+	width:350px;
+	display: inline-block;
+	padding:5px;
+	transition: all 0.3s ease-in-out;
+
+}
+.photo3:hover
+{
+	-webkit-transform:scale(0.9);
+	-ms-transform:scale(0.9);
+	transform:scale(0.9);
+}
