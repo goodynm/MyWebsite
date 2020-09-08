@@ -10,12 +10,21 @@ Font license info
    Homepage:  http://zocial.smcllns.com/
 
 
-## Font Awesome
+## Modern Pictograms
 
-   Copyright (C) 2016 by Dave Gandy
+   Copyright (c) 2012 by John Caserta. All rights reserved.
 
-   Author:    Dave Gandy
-   License:   SIL ()
-   Homepage:  http://fortawesome.github.com/Font-Awesome/
+   Author:    John Caserta
+   License:   SIL (http://scripts.sil.org/OFL)
+   Homepage:  http://thedesignoffice.org/project/modern-pictograms/
+
+
+## Brandico
+
+   (C) 2012 by Vitaly Puzrin
+
+   Author:    Crowdsourced, for Fontello project
+   License:   SIL (http://scripts.sil.org/OFL)
+   Homepage:  
 
 

@@ -1,12 +1,13 @@
 body
 {
-	background-color:#000000;
 	background-image: url("img/clouds4.jpg");
+	background-color:#000000;
 	background-position: center;
-	font-family: 'Slabo 27px', serif;
-	color: white;
+	font-family: 'Lora', serif;
+	color: #400080;
 	height: 100%;
 	width: 100%;
+	
 }
 #wrapper
 {
@@ -29,6 +30,8 @@ body
 	margin-right:auto;
 	text-align:center;
 	float:left;
+
+
 	
 }
 .socialdivs
@@ -38,32 +41,33 @@ body
 	margin-right:auto;
 	padding: 10px;
 }
+
 #watch
 {
 
-	text-align: center;
-	width:10%;
+	width:30%;
 	font-size:20px;
 	margin-left:90%;
-	color:white;
-	float:left;
-	
-	
-}
-.menu
-{
-	position:center;
-	width:80%;
+	color:#e6f2ff;
 	
 }
 #content
 {
-	width:100%;
+	width:80%;
 	text-align: center;
 	margin-left:auto;
 	margin-right:auto;
 	padding-top: 80px;
+	 color:  #400080;
 }
+.menu
+{
+	position:center;
+	width:90%;
+	color:  #400080;
+	
+}
+
 
 ol
 {
@@ -97,7 +101,7 @@ ol > li
 
 ol > li:hover > a 
 {
-	color:pink;
+	color:#e6f2ff;
 }
 ol> li:hover > ul
 {
@@ -117,15 +121,22 @@ ol > li > ul > li
 }
 ol > li > ul > li:hover >a
 {
-	color: green;
+	color:#e6f2ff;
 }
 h1
 {
-	color:white;
+	color:#e6f2ff;
 	text-align: center;
 	font-size:25px;
+	opacity:0.8;
 }
-.gmail
+h3
+{
+	color:#e6f2ff;
+	text-align: center;
+	opacity: 0.8;
+}
+.github
 {
 	padding:0px 10px;
 	float:left;
@@ -137,4 +148,38 @@ h1
 	
 	float:left;
 }
- 
+.linkedin:hover
+{
+		color: white;
+}
+#description
+{
+	float:left;
+	width: 50%;
+}
+#picture 
+{
+	width: 50%;
+	float: left;
+
+
+}
+img
+{
+border-radius: 60%;
+	padding: 0 6px;
+
+  width: 200px;
+  height:200px;
+  opacity: 0.8;
+  padding:50px;
+  	position: absoute;
+  	
+}
+.photo1
+{
+
+	display: inline-block;
+	padding:5px;
+	transition: all 0.3s ease-in-out;
+}

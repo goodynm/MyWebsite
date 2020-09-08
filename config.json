@@ -13,10 +13,22 @@
       "src": "zocial"
     },
     {
-      "uid": "1145676a91138011729fa2909997af66",
-      "css": "linkedin-squared",
-      "code": 62220,
-      "src": "fontawesome"
+      "uid": "w42gjpwdzqeszptpy1xqp8r77o6gcasj",
+      "css": "facebook",
+      "code": 62208,
+      "src": "modernpics"
+    },
+    {
+      "uid": "4a0bb1ac004980bb3837560d4c9e8cee",
+      "css": "github",
+      "code": 62216,
+      "src": "brandico"
+    },
+    {
+      "uid": "e9e96618b0f44170930f9b179237c76e",
+      "css": "linkedin-rect",
+      "code": 62235,
+      "src": "brandico"
     }
   ]
 }

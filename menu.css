@@ -1,0 +1,62 @@
+.menu
+{
+	position:center;
+	width:90%;
+	
+}
+
+
+ol
+{
+	
+	color: black;
+	margin:0;
+	padding:0;
+	list-style-type:none;
+	font-size: 18px;
+	height: 30px;
+	line-height: 200%;
+	display: inline-block;
+	
+	
+}
+ol a
+{
+	
+	text-decoration: none;
+	color: black;
+	display: block;
+	
+}
+ol > li
+{
+	width:100px;
+	height: 40px;
+	float:left;
+	color:black;
+}
+
+ol > li:hover > a 
+{
+	color:pink;
+}
+ol> li:hover > ul
+{
+	display:block;
+}
+ol > li > ul 
+{
+	list-style-type: none;
+	margin:0;
+	padding:0;
+	display: none;
+}
+ol > li > ul > li
+{
+	position: relative;
+	z-index:100;
+}
+ol > li > ul > li:hover >a
+{
+	color: green;
+}

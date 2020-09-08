@@ -1,3 +1,5 @@
 
 .icon-gmail:before { content: '\e800'; } /* '' */
-.icon-linkedin-squared:before { content: '\f30c'; } /* '' */
+.icon-facebook:before { content: '\f300'; } /* '' */
+.icon-github:before { content: '\f308'; } /* '' */
+.icon-linkedin-rect:before { content: '\f31b'; } /* '' */

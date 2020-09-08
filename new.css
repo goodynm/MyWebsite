@@ -1,50 +1,81 @@
 body
 {
 	background-color:#000000;
-	font-family: 'Slabo 27px', serif;
-	color: white;
+	background-image: url("img/clouds4.jpg");
+	font-family: 'Lora', serif;
+	color:#003366;
 }
-h1
+
+h2
 {
 	text-align: center;
-	font-size: 48px;
-	letter-spacing:3px;
+	font-size: 30px;
+	letter-spacing:2px;
+	padding:60px;
 }
 p
 {
 	text-align:center;
 }
-.board
+.header
 {
-	width:1200px;
-	margin-left:auto;
-	margin-right:auto;
+	margin-left: auto;
+	margin-right: auto;
 	text-align:center;
 }
 
-.photo1
+.row
 {
-
-	width:350px;
-	display: inline-block;
-	padding:5px;
-	transition: all 0.3s ease-in-out;
-
+	margin: 70px;
+	text-align:center;
+	width:100%;
+ 
 }
+.text
+{
+	border: 1px solid  #e6f2ff;
+	padding: 5px;
+	text-align: center;
+	width: 60%;
+	background-color: white;
+}
+
+.responsive {
+  opacity:0.8;
+  float: left;
+  width: 25%;
+}
+
+h3
+{
+	text-align: center;
+	padding:2px;
+}
+.photo1 img
+{
+	border: 1px solid  #e6f2ff;
+	width: 60%;
+	height: auto;
+	padding: 5px;
+	border-bottom-style: hidden;
+	float:left;
+}
+
 .photo1:hover
 {
-	-webkit-transform: scale(0.9);
+	-webkit-transform:scale(0.9);
 	-ms-transform:scale(0.9);
-	transform:(0.9);
+	transform: scale(0.9);
+	
 }
-.photo2
+.photo2 img
 {
-
-	width:350px;
-	display: inline-block;
-	padding:5px;
-	transition:all 0.3s ease-in-out;
-
+	border: 1px solid  #e6f2ff;
+	width: 60%;
+	height: auto;
+	padding: 5px;
+	border-bottom-style: hidden;
+	float:left;
 }
 .photo2:hover
 {
@@ -53,18 +84,101 @@ p
 	transform: scale(0.9);
 	
 }
-.photo3
+.photo3 img
 {
-
-	width:350px;
-	display: inline-block;
-	padding:5px;
-	transition: all 0.3s ease-in-out;
-
+	border: 1px solid  #e6f2ff;
+	width: 60%;
+	height: auto;
+	padding: 5px;
+	border-bottom-style: hidden;
+	float:left;
+	
 }
 .photo3:hover
 {
 	-webkit-transform:scale(0.9);
 	-ms-transform:scale(0.9);
-	transform:scale(0.9);
+	transform: scale(0.9);
+	
+}
+.photo4 img
+{
+	border: 1px solid  #e6f2ff;
+	width: 60%;
+	height: auto;
+	padding: 5px;
+	border-bottom-style: hidden;
+	float:left;
+}
+.photo4:hover
+{
+	-webkit-transform:scale(0.9);
+	-ms-transform:scale(0.9);
+	transform: scale(0.9);
+	
+}
+
+.menu
+{
+	
+	width:100%;
+	padding: 10px 0;
+	margin-left: auto;
+	margin-right: auto;
+	text-align:center;
+}
+
+ol
+{
+	
+	color: #003366;
+	margin:0;
+	padding:0;
+	list-style-type:none;
+	font-size: 18px;
+	height: 30px;
+	line-height: 200%;
+	display: inline-block;
+	
+	
+}
+ol a
+{
+	
+	text-decoration: none;
+	color: #003366;
+	display: block;
+	
+}
+ol > li
+{
+	width:100px;
+	height: 40px;
+	float:left;
+	color:#003366;
+}
+
+ol > li:hover > a 
+{
+	color:white;
+}
+ol> li:hover > ul
+{
+	display:block;
+}
+ol > li > ul 
+{
+	list-style-type: none;
+	margin:0;
+	padding:0;
+	display: none;
+}
+ol > li > ul > li
+{
+	position: relative;
+	z-index:100;
+}
+ol > li > ul > li:hover >a
+{
+	color:white;
 }
