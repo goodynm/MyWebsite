@@ -7,8 +7,8 @@ body
 	color: #400080;
 	height: 100%;
 	width: 100%;
-	
 }
+
 #wrapper
 {
 	width: 100%;
@@ -22,7 +22,6 @@ body
 	padding: 10px 0;
 }
 
-
 .socials
 {
 	width:10%;
@@ -30,27 +29,15 @@ body
 	margin-right:auto;
 	text-align:center;
 	float:left;
-
-
-	
 }
+
 .socialdivs
 {
-	
 	margin-left:auto;
 	margin-right:auto;
 	padding: 10px;
 }
 
-#watch
-{
-
-	width:30%;
-	font-size:20px;
-	margin-left:90%;
-	color:#e6f2ff;
-	
-}
 #content
 {
 	width:80%;
@@ -65,13 +52,10 @@ body
 	position:center;
 	width:90%;
 	color:  #400080;
-	
 }
-
 
 ol
 {
-	
 	color: black;
 	margin:0;
 	padding:0;
@@ -80,17 +64,15 @@ ol
 	height: 30px;
 	line-height: 200%;
 	display: inline-block;
-	
-	
 }
+
 ol a
 {
-	
 	text-decoration: none;
 	color: black;
 	display: block;
-	
 }
+
 ol > li
 {
 	width:100px;
@@ -103,10 +85,12 @@ ol > li:hover > a
 {
 	color:#e6f2ff;
 }
+
 ol> li:hover > ul
 {
 	display:block;
 }
+
 ol > li > ul 
 {
 	list-style-type: none;
@@ -114,15 +98,18 @@ ol > li > ul
 	padding:0;
 	display: none;
 }
+
 ol > li > ul > li
 {
 	position: relative;
 	z-index:100;
 }
+
 ol > li > ul > li:hover >a
 {
 	color:#e6f2ff;
 }
+
 h1
 {
 	color:#e6f2ff;
@@ -130,12 +117,14 @@ h1
 	font-size:25px;
 	opacity:0.8;
 }
+
 h3
 {
 	color:#e6f2ff;
 	text-align: center;
 	opacity: 0.8;
 }
+
 .github
 {
 	padding:0px 10px;
@@ -148,37 +137,38 @@ h3
 	
 	float:left;
 }
+
 .linkedin:hover
 {
 		color: white;
 }
+
 #description
 {
 	float:left;
 	width: 50%;
 }
+
 #picture 
 {
 	width: 50%;
 	float: left;
-
-
 }
+
 img
 {
-border-radius: 60%;
+	border-radius: 60%;
 	padding: 0 6px;
-
-  width: 200px;
-  height:200px;
-  opacity: 0.8;
-  padding:50px;
+	width: 200px;
+	height:200px;
+	opacity: 0.8;
+	padding:50px;
   	position: absoute;
   	
 }
+
 .photo1
 {
-
 	display: inline-block;
 	padding:5px;
 	transition: all 0.3s ease-in-out;
