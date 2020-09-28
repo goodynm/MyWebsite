@@ -93,14 +93,18 @@ ol> li:hover > ul
 
 ol > li > ul 
 {
+	
+	font-size: 15px;
 	list-style-type: none;
 	margin:0;
 	padding:0;
+	opacity: 1;
 	display: none;
 }
 
 ol > li > ul > li
 {
+	background-color: #b3d9ff;
 	position: relative;
 	z-index:100;
 }
@@ -110,12 +114,14 @@ ol > li > ul > li:hover >a
 	color:#e6f2ff;
 }
 
+
 h1
 {
 	color:#e6f2ff;
 	text-align: center;
 	font-size:25px;
 	opacity:0.8;
+	padding: 60px;
 }
 
 h3
